@@ -1,0 +1,14 @@
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\bin\Debug\DAL.dll.config
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\bin\Debug\DAL.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\bin\Debug\DAL.pdb
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\bin\Debug\EntityFramework.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\bin\Debug\EntityFramework.xml
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.pdb
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.Migrations.AdminModelCreated.resources
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

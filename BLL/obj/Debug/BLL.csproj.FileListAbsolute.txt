@@ -1,0 +1,14 @@
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\BLL.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\BLL.pdb
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\DAL.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\EntityFramework.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\DAL.pdb
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\DAL.dll.config
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\EntityFramework.xml
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\obj\Debug\BLL.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\obj\Debug\BLL.pdb
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\AutoMapper.dll
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\BLL\bin\Debug\AutoMapper.xml
