@@ -55,15 +55,27 @@
     <Compile Include="DataAccess.cs" />
     <Compile Include="EF\CTSContext.cs" />
     <Compile Include="EF\Models\Admin.cs" />
+    <Compile Include="EF\Models\Category.cs" />
+    <Compile Include="EF\Models\Notice.cs" />
     <Compile Include="EF\Models\Staff.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202308131048448_AdminModelCreated.cs" />
     <Compile Include="Migrations\202308131048448_AdminModelCreated.designer.cs">
       <DependentUpon>202308131048448_AdminModelCreated.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202308221345313_NoticeTypeEntitiesCreated.cs" />
+    <Compile Include="Migrations\202308221345313_NoticeTypeEntitiesCreated.designer.cs">
+      <DependentUpon>202308221345313_NoticeTypeEntitiesCreated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308221411233_TypeRemovedCategoryCreated2.cs" />
+    <Compile Include="Migrations\202308221411233_TypeRemovedCategoryCreated2.designer.cs">
+      <DependentUpon>202308221411233_TypeRemovedCategoryCreated2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\AdminRepo.cs" />
+    <Compile Include="Repos\CategoryRepo.cs" />
+    <Compile Include="Repos\NoticeRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\StaffRepo.cs" />
   </ItemGroup>
@@ -75,6 +87,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202308131048448_AdminModelCreated.resx">
       <DependentUpon>202308131048448_AdminModelCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308221345313_NoticeTypeEntitiesCreated.resx">
+      <DependentUpon>202308221345313_NoticeTypeEntitiesCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308221411233_TypeRemovedCategoryCreated2.resx">
+      <DependentUpon>202308221411233_TypeRemovedCategoryCreated2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

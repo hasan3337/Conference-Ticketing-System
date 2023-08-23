@@ -16,10 +16,17 @@ namespace DAL
         {
             return new AdminRepo();
         }
-
         public static IRepo<Staff, int, bool> StaffData()
         {
             return new StaffRepo();
+        }
+        public static IRepo<Category, int, bool> CategoryData()
+        {
+            return new CategoryRepo();
+        }
+        public static IRepo<Notice, int, bool> NoticeData()
+        {
+            return new NoticeRepo();
         }
     }
 }
