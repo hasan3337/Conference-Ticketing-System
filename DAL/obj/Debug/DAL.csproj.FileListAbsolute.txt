@@ -14,3 +14,4 @@ D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.Mi
 D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.Migrations.NoticeTypeEntitiesCreated.resources
 D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.Migrations.TypeRemovedCategoryCreated2.resources
+D:\Programming\C#\APWDN\Project\Conference Ticketing System\DAL\obj\Debug\DAL.Migrations.AdminTokenAdded.resources

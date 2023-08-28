@@ -28,5 +28,13 @@ namespace DAL
         {
             return new NoticeRepo();
         }
+        public static IAuth AuthData()
+        {
+            return new AdminRepo();
+        }
+        public static IRepo<Token, int, Token> TokensData()
+        {
+            return new TokenRepo();
+        }
     }
 }

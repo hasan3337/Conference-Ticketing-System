@@ -15,5 +15,6 @@ namespace DAL.EF
         public DbSet<Staff> Staffs { get; set; }
         public DbSet<Notice> Notices { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Token> Tokens { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using BLL.DTOs;
 using BLL.Services;
+using Conference_Ticketing_System.AuthFilters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,10 @@ using System.Web.Http;
 namespace Conference_Ticketing_System.Controllers
 {
     [RoutePrefix("api/staff")]
+    
     public class StaffController : ApiController
     {
+        [Logged]
         [HttpGet]
         [Route("all")]
         public HttpResponseMessage Get()
