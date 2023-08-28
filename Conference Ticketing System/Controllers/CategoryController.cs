@@ -82,5 +82,21 @@ namespace Conference_Ticketing_System.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
             }
         }
+
+        [HttpGet]
+        [Route("{id}/notice")]
+        public HttpResponseMessage GetWithNotice(int id)
+        {
+            try
+            {
+                var data = CategoryService.GetWithNotice(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception e)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
     }
 }

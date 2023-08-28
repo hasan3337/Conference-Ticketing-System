@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 
 namespace BLL.Services
 {
@@ -42,6 +43,46 @@ namespace BLL.Services
 
             return DataAccess.NoticeData().Delete(id);
 
+        }
+
+        public static List<NoticeDTO> Get(DateTime date)
+        {
+            var data = (from n in DataAccess.NoticeData().Get()
+                        where n.Date.Date == date
+                        select n).ToList();
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<Notice, NoticeDTO>();
+            });
+            var mapper = new Mapper(config);
+            var cnvrted = mapper.Map<List<NoticeDTO>>(data);
+            return cnvrted;
+
+        }
+        public static List<NoticeDTO> Get(string cat)
+        {
+            var data = (from n in DataAccess.NoticeData().Get()
+                        where n.Category.Name.ToLower().Contains(cat.ToLower())
+                        select n).ToList();
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<Notice, NoticeDTO>();
+            });
+            var mapper = new Mapper(config);
+            var cnvrted = mapper.Map<List<NoticeDTO>>(data);
+            return cnvrted;
+
+        }
+        public static List<NoticeDTO> Get(string cat, DateTime date)
+        {
+            var data = (from n in DataAccess.NoticeData().Get()
+                        where n.Category.Name.ToLower().Contains(cat.ToLower())
+                        && n.Date.Date == date
+                        select n).ToList();
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<Notice, NoticeDTO>();
+            });
+            var mapper = new Mapper(config);
+            var cnvrted = mapper.Map<List<NoticeDTO>>(data);
+            return cnvrted;
         }
 
     }

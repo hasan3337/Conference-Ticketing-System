@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 
 namespace BLL.Services
 {
@@ -43,5 +44,18 @@ namespace BLL.Services
             return DataAccess.CategoryData().Delete(id);
 
         }
+     
+        public static CategoryNoticeDTO GetWithNotice(int id)
+        {
+            var data = DataAccess.CategoryData().Get(id);
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<Category, CategoryNoticeDTO>();
+                cfg.CreateMap<Notice, NoticeDTO>();
+            });
+            var mapper = new Mapper(config);
+            var cnvrted = mapper.Map<CategoryNoticeDTO>(data);
+            return cnvrted;
+        }
+
     }
 }
